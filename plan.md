@@ -18,7 +18,11 @@
     - login and logout see 106-web-development-tutorial-with-dex/client-cookies/frontends/cursor-cognito-dex-interoperable
 
 - Next.js Front End to replace the front end above
+- lambda /upload to upload an image
 - Add a React Server Component  
+  - /gallery will be the lambda api route
+  - see technical snippets/next.js and react server components.md
+  - associates S3 with CloudFront 
 
 
     
