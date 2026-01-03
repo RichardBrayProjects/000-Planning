@@ -14,9 +14,11 @@
     - Cognito Configuration with CDK Deployment 
     - /login lambda, deployed using CDK, returns URL of Cognito
     - /authentication lambda
-- Front End
+- React Front End
     - login and logout see 106-web-development-tutorial-with-dex/client-cookies/frontends/cursor-cognito-dex-interoperable
 
+- Next.js Front End to replace the front end above
+- Add a React Server Component  
 
 
     
