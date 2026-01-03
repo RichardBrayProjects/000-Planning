@@ -1,0 +1,31 @@
+Hello, and welcome. 
+
+This is the first of a few very short videos showing you 
+
+how I went about setting up my Windows PC prior to the various courses 
+
+If all the applications you need for your course are already installed then there's not really any need to go any further. 
+
+But if you're missing some of them then you might find this helpful.
+
+Here, I will walk you through a very efficient way to install all the command line utilities and applications you need.
+
+I'll actually be using the Chocolatey package manager for that.
+
+You can of course install everything individually: just by 
+
+going to various websites and downloading and installing everything individually. 
+
+But of late I've found myself using Chocolatey more and more, just because its a lot quicker and simpler.
+
+Basically, With Chocolatey you can install a whole bunch of applications with a single command.
+
+So in this video well will install Chocolatey - it'll only take a few seconds - 
+
+and then in the next video I will show you how to install the actual applications.
+
+Once that's done there's a few short videos walking you through how Visual Studio code is configured in the course videos.
+
+But first, lets start by installing Chocolatey.
+
+

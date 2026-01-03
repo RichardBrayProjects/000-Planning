@@ -1,0 +1,50 @@
+# hit tab to jump out of brackets
+albert.tabout
+
+# tailwind assistance
+bradlc.vscode-tailwindcss
+
+# filename autocomplete
+christian-kohler.path-intellisense
+
+# ESLint JavaScript code analysis
+dbaeumer.vscode-eslint
+
+# React snippets
+dsznajder.es7-react-js-snippets
+
+# Prettier code formatter
+esbenp.prettier-vscode
+
+# Prettier SQL formatter
+inferrinizzard.prettier-sql-vscode
+
+# superior git graph 
+mhutchie.git-graph
+
+# Microsoft support for Windows Subsystem for Linux (WSL)
+ms-vscode-remote.remote-wsl
+
+# Microsoft support for TypeScript
+ms-vscode.vscode-typescript-next
+
+# Microsoft Jupyter Notebooks
+ms-toolsai.jupyter
+
+# Deno language server support
+denoland.vscode-deno
+
+# HTML file - view in a brower
+peakchen90.open-html-in-browser
+
+# YAML support
+redhat.vscode-yaml
+
+# Live web server for HTML pages with hot reloading
+ritwickdey.liveserver
+
+# Highlight Matching HTML and JSX tags
+vincaslt.highlight-matching-tag
+
+# Human readable TypeScript errors
+yoavbls.pretty-ts-errors
