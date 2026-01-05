@@ -32,7 +32,7 @@
             /api/image/upload
             /api/image/gallery
             
-- cloufront version of  Front End
+- cloufront version of Front End
     
 
 
