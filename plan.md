@@ -1,28 +1,39 @@
 # Overall
-- one route per lambda (as in Smilga AWS Course)
-- Cognito code will be raw and not use the open-id client library, see 
-      106-web-development-tutorial-with-dex/client-cookies/backends/cognito-with-pkce
-      106-web-development-tutorial-with-dex/client-cookies/frontends/cursor-cognito-dex-interoperable
-- Authorization will be using client cookies
+
+- no devops, no sso
+
+- start with these and build out from there ...
+    106-web-development-tutorial-with-dex/client-cookies/backends/cognito-with-pkce
+    106-web-development-tutorial-with-dex/client-cookies/frontends/cursor-cognito-dex-interoperable
+
+- Local vs Remote running
+    use adapters
+    local will use Cognito=Dex, RDS=PostgreSQL, S3=Min.io
+
 
 # Steps
 
-- AWS CLI Account Setup (default) 
-- Monorepo setup
-- CDK Bootstrap Setup
-- Login Service
-    - Cognito Configuration with CDK Deployment 
-    - /login lambda, deployed using CDK, returns URL of Cognito
-    - /authentication lambda
-- React Front End
-    - login and logout see 106-web-development-tutorial-with-dex/client-cookies/frontends/cursor-cognito-dex-interoperable
-
-- Next.js Front End to replace the front end above
-- lambda /upload to upload an image
-- Add a React Server Component  
-  - /gallery will be the lambda api route
-  - see technical snippets/next.js and react server components.md
-  - associates S3 with CloudFront 
+- Monorepo setup based on
+    repo stucture: 103-first-fully-working-version
+    backend code: 106-web-development-tutorial-with-dex/client-cookies/backends/cognito-with-pkce
+    frontend code: 106-web-development-tutorial-with-dex/client-cookies/frontends/cursor-cognito-dex-interoperable
+- get local working first against DEX
+- get remote working against COGNITO
+    - AWS CLI Account Setup (default) 
+    - CDK Bootstrap Setup
+    - deploy Cognito using CDK
+    - remote single service
+        - api gateway = certficate = primary domain
+        - Node/Express single service
+            /public/login
+            /public/autenticated
+            /api/user/getUserInfo
+            /api/user/setUserInfo
+            /api/image/upload
+            /api/image/gallery
+            
+- cloufront version of  Front End
+    
 
 
     
