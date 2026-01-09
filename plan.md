@@ -1,39 +1,26 @@
 # Overall
 
-- no devops, no sso
+## Services
 
-- start with these and build out from there ...
+NO LOCAL RESOURCES : use RDS and S3 only
+
+- System
+  RDS
+
+- User, combines
+  - cognito-cdk
+    104-safe-copy-of-first-fully-working-version/services/system-cdk/src/bin/cognito.ts
+  - login
     106-web-development-tutorial-with-dex/client-cookies/backends/cognito-with-pkce
-    106-web-development-tutorial-with-dex/client-cookies/frontends/cursor-cognito-dex-interoperable
-
-- Local vs Remote running
-    use adapters
-    local will use Cognito=Dex, RDS=PostgreSQL, S3=Min.io
-
+  - user services
+    104-safe-copy-of-first-fully-working-version/services/user
 
 # Steps
 
-- Monorepo setup based on
-    repo stucture: 103-first-fully-working-version
-    backend code: 106-web-development-tutorial-with-dex/client-cookies/backends/cognito-with-pkce
-    frontend code: 106-web-development-tutorial-with-dex/client-cookies/frontends/cursor-cognito-dex-interoperable
-- get local working first against DEX
-- get remote working against COGNITO
-    - AWS CLI Account Setup (default) 
-    - CDK Bootstrap Setup
-    - deploy Cognito using CDK
-    - remote single service
-        - api gateway = certficate = primary domain
-        - Node/Express single service
-            /public/login
-            /public/autenticated
-            /api/user/getUserInfo
-            /api/user/setUserInfo
-            /api/image/upload
-            /api/image/gallery
-            
-- cloufront version of Front End
-    
-
-
-    
+- User Service (contains all cognito CDK code)
+  - deploy Cognito using CDK
+  - deploy lambda node/express services with api gateway = certficate = primary domain
+  - add cognito login from 106-web-development-tutorial-with-dex/client-cookies/backends/cognito-with-pkce
+  - deploy RDS database (see 104-safe-copy-of-first-fully-working-version/services/system-cdk)
+  - add postConfirmation trigger (see 104-safe-copy-of-first-fully-working-version/services/system-cdk/src/lambdas)
+- cloufront version of 106-web-development-tutorial-with-dex/client-cookies/frontends/cursor-cognito-dex-interoperable
