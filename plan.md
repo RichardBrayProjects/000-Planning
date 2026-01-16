@@ -1,26 +1,77 @@
-# Overall
+# SECTION 1 : introduction
 
-## Services
+- outline contents of course
+- setup mac:
+  brew install --cask google-chrome
+  brew install node
+  brew install git
+  brew install --cask git-credential-manager
+  brew install --cask visual-studio-code
+  brew install awscli
+  brew install aws-cdk
+  brew install pnpm
+  git-credential-manager configure
 
-NO LOCAL RESOURCES : use RDS and S3 only
+- setup windows
+  winget install Google.Chrome
+  winget install OpenJS.NodeJS
+  winget install Git.Git
+  winget install GitHub.GitCredentialManager
+  winget install Microsoft.VisualStudioCode
+  winget install Amazon.AWSCLI
+  winget install Amazon.AWSCDK
+  winget install pnpm.pnpm
 
-- System
-  RDS
+- create aws dev account & aws configure CLI
+- style will be repo-driven
 
-- User, combines
-  - cognito-cdk
-    104-safe-copy-of-first-fully-working-version/services/system-cdk/src/bin/cognito.ts
-  - login
-    106-web-development-tutorial-with-dex/client-cookies/backends/cognito-with-pkce
-  - user services
-    104-safe-copy-of-first-fully-working-version/services/user
+# SECTION 2: (optional) Review initial UI code
 
-# Steps
+# SECTION 3:  get UI logging in and out of Cognito 
 
-- User Service (contains all cognito CDK code)
-  - deploy Cognito using CDK
-  - deploy lambda node/express services with api gateway = certficate = primary domain
-  - add cognito login from 106-web-development-tutorial-with-dex/client-cookies/backends/cognito-with-pkce
-  - deploy RDS database (see 104-safe-copy-of-first-fully-working-version/services/system-cdk)
-  - add postConfirmation trigger (see 104-safe-copy-of-first-fully-working-version/services/system-cdk/src/lambdas)
-- cloufront version of 106-web-development-tutorial-with-dex/client-cookies/frontends/cursor-cognito-dex-interoperable
+- manual Cognito setup
+- review cognito UI code
+
+# SECTION 4 : deploy Cognito with CDK 
+
+# SECTION 5: deploy UI to cloudfront 
+
+# SECTION 6:  new API server 
+
+   - Cognito CDK writes ssm metadata 
+   - API server /cognito-config
+
+# SECTION:  implement RDS database 
+
+  - CDK
+  - flyway
+
+# SECTION:  implement post-confirmation lambda 
+
+# SECTION:  implement user nickname profile page
+
+# SECTION:  private API endpoints cognitio authentication 
+
+  - protect /profile with API gateway Cognito user pool authorizer 
+
+# SECTION:  Cognito groups authorization middleware 
+
+  - management ping !
+
+# SECTION:  image upload 
+
+# SECTION:  cloudfront caching of S3 buckets of images 
+
+Advanced Lessons 
+
+# SECTION:  microservices 
+
+  - independent code 
+  - shared code 
+  - private packages versioned shared 
+
+# SECTION:  testing and health 
+
+# SECTION:  lambda web adapter and docker 
+
+APPENDIX : review the initial UI code
