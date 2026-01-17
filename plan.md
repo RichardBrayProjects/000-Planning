@@ -18,14 +18,20 @@
 - setup windows
 
 ```
+  Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
   winget install Google.Chrome
   winget install OpenJS.NodeJS
   winget install Git.Git
   winget install GitHub.GitCredentialManager
   winget install Microsoft.VisualStudioCode
   winget install Amazon.AWSCLI
-  winget install Amazon.AWSCDK
   winget install pnpm.pnpm
+```
+
+then in another terminal
+
+```
+  pnpm install -g aws-cdk
 ```
 
 - create aws dev account & aws configure CLI
