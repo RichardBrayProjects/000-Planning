@@ -1,4 +1,4 @@
-# SECTION 1 : introduction
+# SECTION 1 : introductionx
 
 - outline contents of course
 - setup mac:
