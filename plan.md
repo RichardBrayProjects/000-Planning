@@ -1,7 +1,9 @@
-# SECTION 1 : introductionx
+# SECTION 1 : introduction
 
 - outline contents of course
 - setup mac:
+
+```
   brew install --cask google-chrome
   brew install node
   brew install git
@@ -11,8 +13,11 @@
   brew install aws-cdk
   brew install pnpm
   git-credential-manager configure
+```
 
 - setup windows
+
+```
   winget install Google.Chrome
   winget install OpenJS.NodeJS
   winget install Git.Git
@@ -21,6 +26,7 @@
   winget install Amazon.AWSCLI
   winget install Amazon.AWSCDK
   winget install pnpm.pnpm
+```
 
 - create aws dev account & aws configure CLI
 - style will be repo-driven
