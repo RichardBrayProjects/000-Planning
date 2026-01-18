@@ -70,9 +70,9 @@ then in another terminal
    - the API server has a route  /cognito-config which returns this data 
    - no api gateway authentication is involved 
    - the UI goes to this route and gets the Cognito domain and client ID and no longer gets it from the .env file
-   - the base url of the api server is held in the .env file so the UI knows where to go - this will change every time the api server is destroyed and deployed with cdk
+   - the base url of the api server is held in the .env file so the UI knows where to go: this will change every time the api server is destroyed and deployed with cdk
 
-# section optional - move cloudfront and api server to registered domain 
+# SECTION: move cloudfront and api server to registered domain 
 
 - using aws registered domain
 - using godaddy registered domain
