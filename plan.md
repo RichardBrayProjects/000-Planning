@@ -3,6 +3,16 @@
 - outline contents of course
 - setup mac:
 
+Firstly go to
+
+```
+brew.sh
+```
+
+and follow the instructions for installing homebrew.
+
+Then use homebrew to install whichever packages you don't already have. Here are the commands.
+
 ```
   brew install --cask google-chrome
   brew install node
@@ -10,9 +20,15 @@
   brew install --cask git-credential-manager
   brew install --cask visual-studio-code
   brew install awscli
-  brew install aws-cdk
-  brew install pnpm
+```
+
+then in a new terminal (to get the correct PATH)
+
+```
+  npm install -g aws-cdk
   git-credential-manager configure
+  git config --global user.name "Your Name"
+  git config --global user.email "you@example.com"
 ```
 
 - setup windows
