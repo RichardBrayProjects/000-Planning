@@ -50,8 +50,19 @@ then in another terminal
 
 # SECTION 6:  new API server 
 
-   - Cognito CDK writes ssm metadata 
-   - API server /cognito-config
+   - here we enhance Cognito CDK to  write the Cognito domain and client id into ssm metadata 
+   - the API server has a route  /cognito-config which returns this data 
+   - no api gateway authentication is involved 
+   - the UI goes to this route and gets the Cognito domain and client ID and no longer gets it from the .env file
+   - the base url of the api server is held in the .env file so the UI knows where to go - this will change every time the api server is destroyed and deployed with cdk
+
+# section optional - move cloudfront and api server to registered domain 
+
+- using aws registered domain
+- using godaddy registered domain
+- set up certificates
+- update the .env file to contain api.domainname.com as the base url
+- this way it will work with and without a registered domain - but if you have a registered domain then no need to regularly update the file 
 
 # SECTION:  implement RDS database 
 
