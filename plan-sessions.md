@@ -8,26 +8,26 @@ SECTIONS
 
 2. Build initial React/Tailwind/ShadCN UI (optional)
 
-3. UI Authentication with Cognito
+3. AWS Cognito UI Authentication
 
-4. Deploy AWS Cognito with CDK
+4. AWS Cognito CDK deployment
 
-5. Deploy UI to AWS Cloudfront with CDK
+5. AWS Cloudfront UI CDK deployment
 
-6. Backend Node/Express API Server running locally
+6. Local Node/Express API server
 
-7. Deploy API server to AWS Lambda CDK
+7. AWS Lambda API server CDK deployment
 
-8. Implement RDS Aurora (serverless) PostgreSQL Database
+8. AWS RDS Aurora serverless PostgreSQL Database
+    - Cognito Signup adds user to Database
+    - Profile Page saves/retrieves user nickname to Database via API server
 
-9. Cognito Signup adds user to RDS Database
+9. AWS S3 bucket of images
+    - UI Upload Images via API Server (images in S3 bucket and metadata in PostgreSQL)
+    - Search and display multiple images with Cloudfront cache in front of S3 image bucket
 
-10. API Server connection to PostgreSQL - Profile Page saves/retrieves user nickname
+AWS API Gateway Cognito Authorizer API Server — Tiered Security
+    - public, authenticated, group-access
 
-11. UI Upload Images to API Server - images in S3 bucket and metadata in PostgreSQL
-
-12. Search and display multiple images using Cloudfront cache in front of S3 image bucket
-
-13. API Server Security - public, authenticated, group-access
 
 ```
