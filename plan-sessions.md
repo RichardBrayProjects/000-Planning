@@ -18,15 +18,17 @@ SECTIONS
 
 7. AWS Lambda API server CDK deployment
 
-8. AWS RDS Aurora serverless PostgreSQL Database
-    - Cognito Signup adds user to Database
-    - Profile Page saves/retrieves user nickname to Database via API server
+8. AWS RDS Aurora serverless PostgreSQL Database CDK Deployment
 
-9. AWS S3 bucket of images
-    - UI Upload Images via API Server (images in S3 bucket and metadata in PostgreSQL)
-    - Search and display multiple images with Cloudfront cache in front of S3 image bucket
+9. AWS Cognito post-registration Lambda adds user to RDS Database
 
-AWS API Gateway Cognito Authorizer API Server — Tiered Security
+10. Profile Page user-nickname editor (AWS RDS storage)
+
+11. Image Upload and display (UI, API Server, images in S3 bucket, metadata in RDS database)
+
+12. Search and display images (AWS Cloudfront caching S3 image bucket)
+
+13. AWS API Gateway Cognito Authorizer API Server — Tiered Security
     - public, authenticated, group-access
 
 
