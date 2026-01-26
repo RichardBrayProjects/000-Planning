@@ -5,66 +5,26 @@ AWS full-stack AI cloud development step by step
 # SECTION 1 : introduction
 
 - outline contents of course
-- setup mac:
-
-Firstly go to
-
-```
-brew.sh
-```
-
-and follow the instructions for installing homebrew.
-
-Then use homebrew to install whichever packages you don't already have. Here are the commands.
-
-```
-  brew install --cask google-chrome
-  brew install node
-  brew install git
-  brew install --cask git-credential-manager
-  brew install --cask visual-studio-code
-  brew install awscli
-```
-
-then in a new terminal (to get the correct PATH)
-
-```
-  npm install -g aws-cdk
-  git-credential-manager configure
-  git config --global user.name "Your Name"
-  git config --global user.email "you@example.com"
-```
-
+- setup mac
 - setup windows
+- aws account setup
+- setup database tools (mac + windows in rdp)
 
-```
-  Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
-  winget install Google.Chrome
-  winget install OpenJS.NodeJS
-  winget install Git.Git
-  winget install GitHub.GitCredentialManager
-  winget install Microsoft.VisualStudioCode
-  winget install Amazon.AWSCLI
-  winget install pnpm.pnpm
-```
+# SECTION 2: React Tailwind Shadcn UI
 
-then in another terminal
-
-```
-  pnpm install -g aws-cdk
-```
-
-- create aws dev account & aws configure CLI
-- style will be repo-driven
-
-# SECTION 2: (optional) Review initial UI code
+- introduction
+- shadcn scaffolding
 
 # SECTION 3:  get UI logging in and out of Cognito 
 
 - manual Cognito setup
-- review cognito UI code
+- lesson on HTTP: naviagation calls, API calls and redirects
+- OAuth 2.1 / Cognito UI code - how OAuth/Cognito works
 
 # SECTION 4 : deploy Cognito with CDK 
+
+- must include synth and deploy phases
+- must include explanation of when you cannot use Javascript variables to pass data between stacks
 
 # SECTION 5: deploy UI to cloudfront 
 
