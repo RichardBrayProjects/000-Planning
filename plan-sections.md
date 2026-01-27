@@ -26,9 +26,11 @@ SECTIONS
 
 11. Image Upload and display (UI, API Server, images in S3 bucket, metadata in RDS database)
 
-12. Search and display images (AWS Cloudfront caching S3 image bucket)
+12. Search and display images directly from S3 bucket
 
-13. AWS API Gateway Cognito Authorizer API Server — Tiered Security
+13. AWS Cloudfront caching S3 image bucket
+
+14. AWS API Gateway Cognito Authorizer API Server — Tiered Security
     - public, authenticated, group-access
 
 
