@@ -28,6 +28,10 @@ SECTIONS
 
 12. Search and display images directly from S3 bucket
 
+---------------- PUBLISH COURSE "AWS FULLSTACK CLOUD DEVELOPMENT"  ----------------
+
+Extras later ... start with
+
 13. AWS Cloudfront caching S3 image bucket
 
 14. AWS API Gateway Cognito Authorizer API Server — Tiered Security
