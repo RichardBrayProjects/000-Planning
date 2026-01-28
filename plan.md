@@ -8,11 +8,21 @@
 - aws account setup
 - setup database tools (mac + windows in rdp)
 
-# SECTION 2: React Tailwind Shadcn UI
+# SECTION 2: Initial UI Application : Vite, React, Tailwind, Shadcn UI
 
 - introduction (to do : remove git clone & vite dev)
 - shadcn scaffolding
-- vite explained
+- What is a SPA application ? Webservers, HTML, Javascript and HTTP in a nutshell
+  - show Live Server Addin with a simple HTML page with
+    - a button and a counter
+    - a "reload" button
+    - see how counter resets when the page reloads
+
+- our build tools :
+  - vite explained
+  - vite configuration (config file)
+  - typescript configuration
+  - show how to check type information separately to vite
 
 # SECTION 3: AWS Cognito UI Authentication
 
