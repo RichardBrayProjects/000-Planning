@@ -1,6 +1,4 @@
-# Title AWS full-stack cloud development step by step
-
-AWS full-stack AI cloud development step by step
+# Title : develop a real-world aws application from zero, step-by-step
 
 # SECTION 1 : introduction
 
@@ -12,70 +10,79 @@ AWS full-stack AI cloud development step by step
 
 # SECTION 2: React Tailwind Shadcn UI
 
-- introduction
+- introduction (to do : remove git clone & vite dev)
 - shadcn scaffolding
+- vite explained
 
-# SECTION 3:  get UI logging in and out of Cognito 
+# SECTION 3: AWS Cognito UI Authentication
 
 - manual Cognito setup
+- UI running under Vite
 - lesson on HTTP: naviagation calls, API calls and redirects
 - OAuth 2.1 / Cognito UI code - how OAuth/Cognito works
+- show UI logging in and out of Cognito 
 
-# SECTION 4 : deploy Cognito with CDK 
+# SECTION 4 : AWS Cognito CDK deployment
 
 - must include synth and deploy phases
 - must include explanation of when you cannot use Javascript variables to pass data between stacks
 
-# SECTION 5: deploy UI to cloudfront 
+# SECTION 5: AWS Cloudfront UI CDK deployment
 
-# SECTION 6:  new API server 
-
-   - here we enhance Cognito CDK to write the Cognito domain and client id into ssm metadata 
-   - the API server has a route /cognito-config which returns this data
-
-- no api gateway authentication is involved
-- the UI goes to this route and gets the Cognito domain and client ID and no longer gets it from the .env file
-- the base url of the api server is held in the .env file so the UI knows where to go: this will change every time the api server is destroyed and deployed with cdk
-
-# SECTION: move cloudfront and api server to registered domain
-
-- using aws registered domain
-- using godaddy registered domain
+- registered domain
+  - aws registered domain
+  - godaddy registered domain
 - set up certificates
-- update the .env file to contain api.domainname.com as the base url
-- this way it will work with and without a registered domain - but if you have a registered domain then no need to regularly update the file
+- use www subdomain of the registered domain
 
-# SECTION:  implement RDS database 
+# SECTION 6:  Local Node/Express API server
+
+- here we enhance Cognito CDK to write the Cognito domain and client id into ssm metadata 
+- the API server has a route /cognito-config which returns this data
+- the UI goes to this route and gets the Cognito domain and client ID and no longer gets it from the .env file
+- no api gateway authentication is involved
+- base url of api server is held in the .env file so the UI knows where to go: changes when api server is destroyed & redeployed with cdk
+
+# SECTION 7: AWS Lambda API server CDK deployment
+
+- use api subdomain of the registered domain
+
+# SECTION 8: AWS RDS Aurora serverless PostgreSQL Database CDK Deployment
 
   - CDK
-  - flyway
+  - flyway migrations
 
-# SECTION:  implement post-confirmation lambda 
+# SECTION 9: AWS Cognito post-registration Lambda adds user to RDS Database
 
-# SECTION:  implement user nickname profile page
+# SECTION 10: Profile Page user-nickname editor (AWS RDS storage)
 
-# SECTION:  private API endpoints cognitio authentication 
+# SECTION 11: Image Upload to S3 bucket
 
-  - protect /profile with API gateway Cognito user pool authorizer 
+# SECTION 12: Search and display images directly from S3 bucket
 
-# SECTION:  Cognito groups authorization middleware 
+---------------- PUBLISH ----------------
 
-  - management ping !
+# SECTION 13: AWS Cloudfront caching S3 image bucket
 
-# SECTION:  image upload 
+# SECTION 14: AWS API Gateway Cognito Authorizer API Server — Tiered Security
 
-# SECTION:  cloudfront caching of S3 buckets of images 
+    - public, authenticated, group-access
+    - group-access to "administrator" group provides a new UI to list all users
 
-Advanced Lessons 
+# SECTION 15: Cognito Delete User
 
-# SECTION:  microservices 
+- extends the administrator features to deletion : has to delete _all_ traces of user data
+
+# SECTION xx:  microservices 
 
   - independent code 
   - shared code 
   - private packages versioned shared 
 
-# SECTION:  testing and health 
+# SECTION xx : micro front ends
 
-# SECTION:  lambda web adapter and docker 
+# SECTION xx : Next.Js with React Server Components running in Lambdas
 
-APPENDIX : review the initial UI code
+# SECTION xx:  testing and health 
+
+# SECTION xx:  lambda web adapter and docker 
