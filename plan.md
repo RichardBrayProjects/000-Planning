@@ -10,6 +10,8 @@
 
 # SECTION 2: Initial UI Application : Vite, React, Tailwind, Shadcn UI
 
+RE-RECORD THE INTRODUCTION AND SCAFFOLDING !!!
+
 - introduction (to do : remove git clone & vite dev)
 - shadcn scaffolding
 - What is a SPA application ? Webservers, HTML, Javascript and HTTP in a nutshell
@@ -17,12 +19,15 @@
     - a button and a counter
     - a "reload" button
     - see how counter resets when the page reloads
-
 - our build tools :
   - vite explained
   - vite configuration (config file)
   - typescript configuration
   - show how to check type information separately to vite
+- now make the ShadCN application do the same thing as our HTML page, but with Vite
+  - a button and a counter
+  - a "reload" button
+  - see how counter resets when the page reloads
 
 # SECTION 3: AWS Cognito UI Authentication
 
