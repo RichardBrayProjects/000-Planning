@@ -1,4 +1,4 @@
-# Title : develop a real-world aws application from zero, step-by-step
+# Title : AWS web development from beginner to expert step by step
 
 # SECTION 1 : introduction
 
