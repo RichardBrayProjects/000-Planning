@@ -83,7 +83,7 @@ RE-RECORD THE INTRODUCTION AND SCAFFOLDING !!!
 - Search and display images directly from S3 bucket
 - AWS Cloudfront caching S3 image bucket
 
-# --------------- PUBLISH ----------------
+# ------------ Publish ----------------
 
 # SECTION xx: AWS API Gateway Security
 
@@ -91,20 +91,17 @@ RE-RECORD THE INTRODUCTION AND SCAFFOLDING !!!
 - public, authenticated, group-access
 - group-access to "administrator" group provides a new UI to list all users
 
-# SECTION xx: Cognito User Deletion
+# SECTION xx: UI Shell + Applications Architecture
 
+- Shell + Applications Design in preparation for micro-frontends
+
+# SECTION xx: New Application : User Account Management
+
+- New Application Cognito User Deletion
 - extends the administrator features to deletion : has to delete _all_ traces of user data
 
-# SECTION xx:  microservices 
-
-  - independent code 
-  - shared code 
-  - private packages versioned shared 
-
-# SECTION xx : micro front ends
+# ------------ Move on To "at scale" course ----------------
 
 # SECTION xx : Next.Js with React Server Components running in Lambdas
-
-# SECTION xx:  testing and health 
 
 # SECTION xx:  lambda web adapter and docker 
