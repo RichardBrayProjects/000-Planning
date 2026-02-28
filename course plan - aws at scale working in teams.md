@@ -12,7 +12,9 @@
 
 - include pull requests
 
-# SECTION Phased Delivery with Multiple Accounts
+# SECTION "Progressive" Delivery with Multiple Accounts
+
+- multi-environment deployment
 
 # SECTION xx:  testing
 
