@@ -1,7 +1,7 @@
 # Promotional Video
 
 ```
-01 welcome to the worlds best frontend development course
+01 welcome the worlds best frontend development course for beginners
     - i am a developer with a lifetime's experience in the UK's leading financial institution
 
 02you are going to have access to
