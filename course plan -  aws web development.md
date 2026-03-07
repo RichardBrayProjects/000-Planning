@@ -30,6 +30,7 @@
 - a custom typescript application runs after deploying Cognito
   - reads the SSM parameters
   - overwrites them in .env file
+  - see https://chatgpt.com/c/69ab3984-6300-8385-a2f0-55180cdc9417 or search ChatGpt history for Cognito client ID access
 
 # SECTION 5: AWS Cloudfront
 
