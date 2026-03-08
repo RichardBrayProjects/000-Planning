@@ -1,0 +1,25 @@
+- new mac setup
+  - desktop wallpaper
+  - mouse natural scrolling
+  - swap control and command keys
+    - system settings-keyboard-shortcuts-modifiers
+  - finder settings
+    - sidebar cofiguration
+    - remove external drive from desktop
+    - new finder window = richardbray
+  - Desktop&Dock settings
+    - make the dock smaller
+    - System Settings->Desktop&Dock->Drag Windows to top of screen … off
+    - System Settings->Desktop&Dock->Click wallpaper to reveal desktop ... only in stage manager
+  - Google drive
+    - ensure drive syncs local SSD
+  - OneDrive
+  - Camtasia
+    - Settings->Recording->Save recordings to
+      AppleExternalDrive->Camtasia
+    - enable all permissions
+  - Audiate
+    - Settings->TemporaryRecordingsStorage
+      AppleExternalDrive->Audiate
+  - Hard Drive Access
+    - SystemSettings->Privacy&Security->FullHardDisk->Add Camtasia, Audiate, Google Drive

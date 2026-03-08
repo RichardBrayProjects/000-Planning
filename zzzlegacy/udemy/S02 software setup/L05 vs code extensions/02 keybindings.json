@@ -1,0 +1,262 @@
+[
+  {
+    "key": "cmd+c",
+
+    "command": "workbench.action.terminal.copySelection",
+
+    "when": "terminalFocus && terminalTextSelected"
+  },
+
+  {
+    "key": "cmd+c",
+
+    "command": "workbench.action.terminal.sendSequence",
+
+    "args": { "text": "\u0003" },
+
+    "when": "terminalFocus && !terminalTextSelected"
+  },
+
+  {
+    "key": "shift+cmd+g",
+
+    "command": "workbench.view.scm",
+
+    "when": "workbench.scm.active"
+  },
+
+  {
+    "key": "ctrl+shift+g",
+
+    "command": "-workbench.view.scm",
+
+    "when": "workbench.scm.active"
+  },
+
+  {
+    "key": "shift+cmd+b",
+
+    "command": "-workbench.action.tasks.build",
+
+    "when": "taskCommandsRegistered"
+  },
+
+  {
+    "key": "shift+cmd+b",
+
+    "command": "workbench.action.toggleActivityBarVisibility"
+  },
+
+  {
+    "key": "shift+cmd+c",
+
+    "command": "workbench.files.action.collapseExplorerFolders"
+  },
+
+  {
+    "key": "cmd+h",
+
+    "command": "editor.action.startFindReplaceAction",
+
+    "when": "editorFocus || editorIsOpen"
+  },
+
+  {
+    "key": "alt+cmd+f",
+
+    "command": "-editor.action.startFindReplaceAction",
+
+    "when": "editorFocus || editorIsOpen"
+  },
+
+  {
+    "key": "f2",
+
+    "command": "renameFile",
+
+    "when": "filesExplorerFocus && foldersViewVisible && !explorerResourceIsRoot && !explorerResourceReadonly && !inputFocus"
+  },
+
+  {
+    "key": "enter",
+
+    "command": "-renameFile",
+
+    "when": "filesExplorerFocus && foldersViewVisible && !explorerResourceIsRoot && !explorerResourceReadonly && !inputFocus"
+  },
+
+  {
+    "key": "cmd+end",
+
+    "command": "-notebook.focusBottom",
+
+    "when": "notebookEditorFocused && !inputFocus"
+  },
+
+  {
+    "key": "alt+end",
+
+    "command": "editor.action.goToBottomHover",
+
+    "when": "editorHoverFocused"
+  },
+
+  {
+    "key": "cmd+down",
+
+    "command": "-editor.action.goToBottomHover",
+
+    "when": "editorHoverFocused"
+  },
+
+  {
+    "key": "alt+home",
+
+    "command": "editor.action.goToTopHover",
+
+    "when": "editorHoverFocused"
+  },
+
+  {
+    "key": "cmd+up",
+
+    "command": "-editor.action.goToTopHover",
+
+    "when": "editorHoverFocused"
+  },
+
+  {
+    "key": "home",
+
+    "command": "-editor.action.goToTopHover",
+
+    "when": "editorHoverFocused"
+  },
+
+  {
+    "key": "alt+home alt+home",
+
+    "command": "-repl.input.focus",
+
+    "when": "mostRecentReplEditor"
+  },
+
+  {
+    "key": "alt+home",
+
+    "command": "-list.focusAnyFirst",
+
+    "when": "listFocus && !inputFocus && !treestickyScrollFocused"
+  },
+
+  {
+    "key": "alt+end",
+
+    "command": "cursorBottom",
+
+    "when": "textInputFocus"
+  },
+
+  {
+    "key": "cmd+down",
+
+    "command": "-cursorBottom",
+
+    "when": "textInputFocus"
+  },
+
+  {
+    "key": "alt+home",
+
+    "command": "cursorTop",
+
+    "when": "textInputFocus"
+  },
+
+  {
+    "key": "cmd+up",
+
+    "command": "-cursorTop",
+
+    "when": "textInputFocus"
+  },
+
+  {
+    "key": "alt+cmd+c",
+
+    "command": "-toggleSearchCaseSensitive",
+
+    "when": "searchViewletFocus && !fileMatchOrFolderMatchFocus"
+  },
+
+  {
+    "key": "alt+cmd+c",
+
+    "command": "-toggleFindCaseSensitive",
+
+    "when": "editorFocus"
+  },
+
+  {
+    "key": "alt+cmd+c",
+
+    "command": "-search.action.copyPath",
+
+    "when": "fileMatchOrFolderMatchWithResourceFocus"
+  },
+
+  {
+    "key": "alt+cmd+c",
+
+    "command": "-debug.copyWatchExpression",
+
+    "when": "watchExpressionsExist && !expressionSelected && focusedView == 'workbench.debug.watchExpressionsView'"
+  },
+
+  {
+    "key": "alt+cmd+c",
+
+    "command": "-workbench.action.terminal.toggleFindCaseSensitive",
+
+    "when": "terminalFindVisible && terminalHasBeenCreated || terminalFindVisible && terminalProcessSupported"
+  },
+
+  {
+    "key": "alt+cmd+c",
+
+    "command": "-toggleSearchEditorCaseSensitive",
+
+    "when": "inSearchEditor && searchInputBoxFocus"
+  },
+
+  {
+    "key": "alt+cmd+c",
+
+    "command": "copyFilePath",
+
+    "when": "editorFocus"
+  },
+
+  {
+    "key": "cmd+k alt+cmd+c",
+
+    "command": "-copyFilePath",
+
+    "when": "editorFocus"
+  },
+  {
+    "key": "cmd+l cmd+o",
+    "command": "-extension.liveServer.goOnline",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "cmd+l cmd+c",
+    "command": "-extension.liveServer.goOffline",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "shift+cmd+l",
+    "command": "-notebook.selectAllFindMatches",
+    "when": "config.notebook.multiCursor.enabled && notebookFindWidgetFocused || config.notebook.multiCursor.enabled && notebookCellEditorFocused && activeEditor == 'workbench.editor.notebook'"
+  }
+]
