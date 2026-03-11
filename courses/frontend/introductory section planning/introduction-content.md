@@ -46,6 +46,41 @@ Before we begin, let's take a quick look at the application we'll be building to
 
 ---
 
+# 2. Course Repositories
+
+### a) Video Content (Slide Deck)
+
+Slide 1 — Course Repositories  
+• One repository per section  
+• Source code for that section lives in the repository
+
+Slide 2 — Folder Structure  
+• One folder per lesson  
+• Clear progression through the section
+
+Slide 3 — Why This Structure Helps  
+• Easy to follow along  
+• Easy to compare solutions  
+• Easy to revisit earlier lessons
+
+---
+
+### b) Transcript
+
+To make the course easy to follow, each section has its own repository containing the code for that part of the course.
+
+Inside each repository you'll find a series of folders, usually one folder per lesson or major step in the section.
+
+This means you can follow the course step by step and work through the material at the same pace as the lessons.
+
+It also makes it easy to compare your work with the completed examples, or jump ahead if you want to see how something was implemented later in the section.
+
+And if you ever want to revisit a previous lesson, you can simply return to the folder for that step.
+
+In the next video I'll show you how to clone the repository for this first section so that you can start working with the course materials on your own machine.
+
+---
+
 # 2. The Application We Will Build
 
 ### a) Video Content (Live Demonstration)
@@ -150,40 +185,7 @@ Before we begin working with code, there's one more important piece to understan
 
 ---
 
-# 5. Course Repositories
 
-### a) Video Content (Slide Deck)
-
-Slide 1 — Course Repositories  
-• One repository per section  
-• Source code for that section lives in the repository
-
-Slide 2 — Folder Structure  
-• One folder per lesson  
-• Clear progression through the section
-
-Slide 3 — Why This Structure Helps  
-• Easy to follow along  
-• Easy to compare solutions  
-• Easy to revisit earlier lessons
-
----
-
-### b) Transcript
-
-To make the course easy to follow, each section has its own repository containing the code for that part of the course.
-
-Inside each repository you'll find a series of folders, usually one folder per lesson or major step in the section.
-
-This means you can follow the course step by step and work through the material at the same pace as the lessons.
-
-It also makes it easy to compare your work with the completed examples, or jump ahead if you want to see how something was implemented later in the section.
-
-And if you ever want to revisit a previous lesson, you can simply return to the folder for that step.
-
-In the next video I'll show you how to clone the repository for this first section so that you can start working with the course materials on your own machine.
-
----
 
 # 6. Cloning the First Repository
 
