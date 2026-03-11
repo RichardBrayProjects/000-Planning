@@ -19,7 +19,7 @@ Slide 2 — First Steps
 
 ### b) Transcript
 
-Hello and welcome to the course.
+Hello and welcome to this course.
 
 If you're interested in learning modern frontend web development, you're in exactly the right place.
 
