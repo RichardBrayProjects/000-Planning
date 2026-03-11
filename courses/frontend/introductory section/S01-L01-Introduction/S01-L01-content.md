@@ -37,9 +37,13 @@ By the end of this course you'll be able to build modern frontend applications c
 
 Before we begin writing any code, let's take a quick look at how this course will start.
 
-In the first section, we'll focus on getting everything set up so you can follow along smoothly. We'll begin by navigating through the course repository so you can understand how the project and course materials are organized.
+In the first section, we'll focus on getting everything set up so you can follow along smoothly.
+
+We'll begin by navigating through the course repository so you can understand how the project and course materials are organized.
 
 After that, we'll set up your development environment and make sure your machine is ready for modern frontend development.
+
+This course is designed to be for both Mac and Windows users - and there is a separate setup section for each.
 
 Once everything is configured, you'll clone the course repository and download the project we'll be working on throughout the course.
 
