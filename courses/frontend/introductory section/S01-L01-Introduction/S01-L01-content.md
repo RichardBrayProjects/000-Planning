@@ -47,11 +47,11 @@ This course is designed to be for both Mac and Windows users - and there is a se
 
 Once everything is configured, you'll clone the course repository and download the project we'll be working on throughout the course.
 
-We'll then build the final version of the course project so that you can see exactly what we're working toward. This gives you a clear picture of the finished application before we begin building it step by step.
+We'll then build the final version of the course project so that you can see exactly what we're working toward.
 
-Finally, we'll walk through the application together and briefly explore the main features. This will help you understand how the pieces fit together and prepare you for the concepts we'll be learning.
+Finally, we'll walk through the application together and briefly explore the main features. This will give you a clear picture of the application before we begin building it step by step and will help you understand how the pieces fit together and prepare you for the concepts we'll be learning.
 
-From there, we'll begin our journey into modern HTML, CSS and JavaScript fundamentals, which form the foundation for everything we'll build later in the course.
+That will complete the introductory section of this course and we'll then be ready to begin our journey into modern HTML, CSS and JavaScript fundamentals, which form the foundation for everything we'll build later in the course.
 
 In the next video, we'll start by navigating the course repository and getting familiar with the project structure.
 
