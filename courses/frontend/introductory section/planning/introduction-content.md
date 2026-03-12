@@ -61,36 +61,70 @@ I'll see you there.
 
 # 2. Course Repositories
 
-### a) Video Content (Slide Deck)
+### a) Slide Deck
 
 Slide 1 — Course Repositories  
-• One repository per section  
-• Source code for that section lives in the repository
+• Each course section has a separate repository ("repo")  
+• www.github.com/RichardBrayCourses
+• search on "frontend" and sort by "name'
 
-Slide 2 — Folder Structure  
-• One folder per lesson  
-• Clear progression through the section
+```
+    frontend01-introduction
+    frontend02-html-css
+    and so on ...
+```
 
-Slide 3 — Why This Structure Helps  
-• Easy to follow along  
-• Easy to compare solutions  
-• Easy to revisit earlier lessons
+Slide 2 — Options For Course Progression
+
+• Progress through all the sections/lessons in the course order
+• Skip sections/lessons
+• Access sections/lessons in any order
+
+In each cases - just start each lesson with the completed source code for the lesson before.
 
 ---
 
 ### b) Transcript
 
-To make the course easy to follow, each section has its own repository containing the code for that part of the course.
+To make the course easy to follow, each section of this course has its own repository - or "repo" containing the code for that part of the course.
 
-Inside each repository you'll find a series of folders, usually one folder per lesson or major step in the section.
+You can find all of these repos at my github account www.github.com/RichardBrayCourses.
 
-This means you can follow the course step by step and work through the material at the same pace as the lessons.
+Go and do that in the browser, here.
 
-It also makes it easy to compare your work with the completed examples, or jump ahead if you want to see how something was implemented later in the section.
+[go to github.com/richardbray/courses and search/sort]
 
-And if you ever want to revisit a previous lesson, you can simply return to the folder for that step.
+So here you can see all the repos - for the course.
 
-In the next video I'll show you how to clone the repository for this first section so that you can start working with the course materials on your own machine.
+Lets take a look inside the repo for section 7
+
+[ navigate to frontend07-react]
+
+Soon we will see how to clone this repo to your hard drive ... and once you've done that, you'll see all these folders on your hard drive.
+
+There is generally a separate folder for each lesson.
+
+Lets expand the content so we can see what's inside these folders
+
+[ expand ]
+
+Inside each folder is a complete snapshot of the source code once you have finished that lesson.
+
+This gives you a couple of choices
+
+[ BACK TO SLIDE 2]
+
+This gives you a number of options for course progression.
+
+• Progress through all the sections/lessons in the course order
+• Skip sections/lessons
+• Access sections/lessons in any order
+
+In each cases - just start each lesson with the completed source code for the lesson before.
+
+Our next step will be to get your machine setup, ready to clone these repos.
+
+There are a couple of lessons for this : for Mac and Windows, so just choose whichever platform you are on and I will see you there.
 
 ---
 
