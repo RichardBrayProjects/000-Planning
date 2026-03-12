@@ -87,11 +87,13 @@ In each cases - just start each lesson with the completed source code for the le
 
 ### b) Transcript
 
-To make the course easy to follow, each section of this course has its own repository - or "repo" containing the code for that part of the course.
+To make the course easy to follow, each section has its own repository - and these are sometimes called repos.
 
-You can find all of these repos at my github account www.github.com/RichardBrayCourses.
+And you can find all these repos at my github account www.github.com/RichardBrayCourses.
 
-Go and do that in the browser, here.
+You can use github's searching and sorting to find the repo you want pretty easily -
+
+So lets go and have a quick look at that ...
 
 [go to github.com/richardbray/courses and search/sort]
 
