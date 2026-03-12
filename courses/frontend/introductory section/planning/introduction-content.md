@@ -66,6 +66,7 @@ I'll see you there.
 Slide 1 — Course Repositories  
 • Each course section has a separate repository ("repo")  
 • www.github.com/RichardBrayCourses
+• go to "repositories" tab
 • search on "frontend" and sort by "name'
 
 ```
