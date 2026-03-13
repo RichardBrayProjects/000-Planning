@@ -1,23 +1,44 @@
-…Hello. This lesson contains instructions for how to get your Mac set up. If you're a Windows user, then just head to the next lesson which will cover Windows…
+Hello. This lesson contains instructions for how to get your Windows machine set up. 
 
-So we're going to do this by following the instructions…course repo for this section. So if we open the repo front endo one introduction…
+We're going to do this by following the instructions in the in the introduction course repo README. So lets open that now ...
 
-you'll find if you scroll down a little way, the Mac setup. And the first thing it does is just lift the software you require. So if you've got Chrome, Node, Git, and Visual Studio Code, then there's no need to do anymore. You're all set up. But if you haven't, then you've got a couple of options.
+[ open repo in browser]
 
-You can go to these four websites and follow their installation instructions and download their code. But there is an alternative. You can install it with Homebrew, which is how I've been installing stuff recently. So I thought I'd show you how to do it that way. All you need to do is paste brew dot s h into your browser…
+If you scroll down a little way, here is the Windows setup. 
 
-and you'll find on their homepage is the installation command for Homebrew. It's just a single command. So we just open a terminal…and enter that command. It'll prompt you for a password just because it's an elevated command. But now I've already got this, uh, installed, so it's gonna be very fast since it's updating.
+You can see here a list of the software required. So if you've already got Chrome, Node, Git, and Visual Studio Code installed on your machine, then there's no need to do anymore. You're all set up. 
 
-But, uh… once it's complete, you should find that it prompts you with some instructions for what to do next, which is how to get your shell script file updated so that it sets the correct environment variables. But if you miss that, don't worry. I've put them in the, uh, course notes here. So there's actually a couple of different common shells on our Mac. So you need to identify which one you're using, and you can do that with this command here.
+But if you haven't, then you've got a couple of options.
 
-So if you just go back to the terminal and enter…echo shell, it will tell you it'll either say bin slash bash, or it may say bin slash c shell. And whichever one it comes back with, you should enter the appropriate command. So I'm a bash, so this is the command for bash users. I'll just copy that and put it into their terminal. And what this will do, it will up update your bash profile file…
+The first is you can go to websites for these applications and follow their installation instructions and download the software. 
 
-So I can show you. I cleared it out before we started this lesson, but let me just show you my bash profile file now…
+But there is an alternative. You can install it with winget which has come preinstalled with windows since about 2018 and this is how I've been installing most applications recently. 
 
-And can you see it's added this command at the end? And when you open a new terminal, it'll run these commands, and it'll ensure that all the Homebrew environment variables are set up. So I'll just quit terminal. I'll start a new one. And now I'm good to go.
+The commands to install these packages with winget are listed just here.  
 
-I can install all of this software. Now I've already installed it, but if you just follow these commands, you'll find they all get installed. They may require a password, but that's it. And once you've completed that, come back here, and there's just one last piece of finishing up to do, which is to enter these commands. So git credential manager configure…
+I have access to my windows machine in this window here.  
 
-or just get the git credential manager working, which is the, uh, sort of security system around git. And then git config, you need to enter your name and your email address in these commands. But I'll show you them executing…
+[ open rdp connection to windows]
 
-And this just ensures that whenever you do a commit or check something into, uh, repo, that it's stamped with your name and your email address so other people can see who who did the commit. Okay. Well, with that, we have actually completed the setup, and I will see you in the next lesson.
+To run the commands I will just open a powershell terminal like this.
+
+[ open powershell terminal ]
+
+This machine already has the software installed but the commands will upgrade the software if there are newer versions available. 
+
+Let me show you.
+
+[ cut and paste the commands and run them ]
+
+So now is a good time for you to run these commands on your own machine for any packages you are missing.  
+
+And once everything is completed come back here As there are a couple of git commands needed to finish off the installation.
+
+
+We just need to configure git config, with a name and and email address like this ..
+
+[ run git config commands ]
+
+This just ensures that whenever you do a commit or check something into, a repo, it's stamped with your name and your email address so other people can see who who did the commit. 
+
+Okay. Well, with that, we have actually completed the setup, and I will see you in the next lesson.
