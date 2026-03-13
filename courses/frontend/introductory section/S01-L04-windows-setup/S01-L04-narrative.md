@@ -2,7 +2,7 @@ Hello and welcome back.
 
 This lesson shows you how to get your Windows machine set up.
 
-We're going to do this by following the instructions in the course repo for this section of the course : frontend01-introduction.
+The instructions for this are in the repo for this section of the course : frontend01-introduction.
 
 So lets open that now ...
 
