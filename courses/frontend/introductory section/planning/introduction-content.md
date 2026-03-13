@@ -1,3 +1,17 @@
+# CONTENT
+
+1. Welcome/Introduction
+2. Course Repos
+3. Mac setup
+4. Windows setup
+5. VS Code setup
+6. Clone repo
+7. Walkthrough
+8. How to take this course
+   - coding along
+   - sections overview - pure tutorials vs project building
+   - video controls
+
 # Section 1 — Introduction
 
 ---

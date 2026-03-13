@@ -10,7 +10,7 @@
 
 # SECTION 2: Initial UI Application : Vite, React, Tailwind, Shadcn UI
 
-- mock login/logout UI
+- now relegated to new course - apparently most students have the "watch any course" plan !
 
 # SECTION 3: AWS Cognito
 
