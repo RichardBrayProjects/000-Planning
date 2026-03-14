@@ -67,8 +67,8 @@ Recommended Settings
 
 • Format code automatically on save
 • Use Prettier as the default formatter
-• Enable linked editing
-• Configure localhost browser behaviour
+• Enable linked HTML open/close tag editing
+• Select “localhost” browser (integrated vs Chrome)
 
 ---
 
@@ -76,7 +76,7 @@ Recommended Settings
 
 Next, we’ll enable a few editor settings used throughout the course.
 
-These settings enable automatic formatting with Prettier, improve editing when working with HTML and JSX, and control how localhost links open while we run our applications.
+These settings will automatically format code when you save a file, ensure that **Prettier** is used as the formatter, enable **linked editing for HTML tags**, and configure which browser opens when we run applications on **localhost**.
 
 [ Go to VS Code and demonstrate editing the settings JSON ]
 
