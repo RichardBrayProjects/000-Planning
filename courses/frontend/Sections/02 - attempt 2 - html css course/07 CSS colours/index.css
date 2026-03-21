@@ -1,0 +1,17 @@
+h1 {
+  color: blue;
+}
+
+.named {
+  background: gold;
+  color: darkgreen;
+}
+
+h2 {
+  color: rgb(120, 20, 20);
+}
+
+.rgb {
+  background: rgb(230, 230, 250);
+  color: rgb(20, 20, 120);
+}

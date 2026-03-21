@@ -1,0 +1,33 @@
+body {
+  font-family: Arial, sans-serif;
+  height: 120vh;
+}
+
+.stage {
+  position: relative;
+  width: 260px;
+  height: 140px;
+  margin: 40px;
+  background: lightgray;
+}
+
+.relative-box {
+  position: relative;
+  top: 10px;
+  left: 10px;
+  background: gold;
+}
+
+.absolute-box {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  background: skyblue;
+}
+
+.fixed-box {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  background: tomato;
+}

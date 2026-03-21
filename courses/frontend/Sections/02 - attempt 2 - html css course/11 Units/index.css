@@ -1,0 +1,22 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+div {
+  margin-top: 12px;
+  padding: 12px;
+  background: lightgray;
+}
+
+.px-box {
+  width: 200px;
+}
+
+.em-box {
+  width: 10em;
+}
+
+.vhvw-box {
+  width: 50vw;
+  height: 20vh;
+}

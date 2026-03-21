@@ -1,0 +1,26 @@
+body {
+  background: #f6efe7;
+  color: #4a2c1d;
+  font-size: 18px;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background: #fff8f1;
+}
+
+main {
+  background: #fffdf9;
+}
+
+section {
+  background: #ffffff;
+}
+
+img {
+  background: #ffffff;
+}
+
+footer {
+  background: #fff8f1;
+}

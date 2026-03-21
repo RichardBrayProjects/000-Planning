@@ -1,0 +1,38 @@
+body {
+  background: #f6efe7;
+  color: #4a2c1d;
+  font-size: 18px;
+  font-family: Arial, sans-serif;
+}
+
+.top-bar {
+  background: #fff8f1;
+}
+
+.status-bar {
+  background: #fff8f1;
+}
+
+.panel {
+  background: #ffffff;
+}
+
+.nav-item {
+  color: #6b4226;
+}
+
+#hero-title {
+  color: #7a3e1d;
+}
+
+header .nav-item {
+  background: #f2e4d8;
+}
+
+.panel p {
+  color: #5a4636;
+}
+
+.menu-card {
+  background: #f9efe5;
+}

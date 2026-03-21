@@ -1,0 +1,26 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.block-box {
+  display: block;
+  background: red;
+  padding: 12px;
+  margin-bottom: 8px;
+}
+
+.inline-box {
+  display: inline;
+  background: blue;
+  color: white;
+  padding: 12px;
+}
+
+.inline-block-box {
+  display: inline-block;
+  width: 140px;
+  height: 60px;
+  background: yellow;
+  padding: 12px;
+  margin-left: 8px;
+}

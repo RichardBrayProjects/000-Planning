@@ -1,0 +1,77 @@
+Hello, and welcome back. 
+
+In this video, I am going to quickly show you how you can install any Visual Studio Code extensions 
+  you might require when following along with the course videos.
+
+The extensions are really what makes Visual Studio Code such a great product. There are literally tens of thousands of them…
+
+If you would like to know more about them 
+    this is Microsoft's homepage about it, and following this link
+    here is the marketplace where you can browse and search for them
+    
+
+< EXCALIDRAW >
+
+Here's a list of everything I generally have installed for the courses. 
+
+In each course I will let you know if any of them are necessary, but mostly these are just for my convenience
+  and they are totally optional as far as you are concerned
+
+So if you want to pause and have a look at these, by all means do so. 
+
+I've written a script which will install all of these automatically. 
+
+So let's just have a quick look at it. 
+
+<GO TO FILE MANAGER>
+
+This is the actual script…
+
+Let's just open this folder with Visual Studio Code
+
+< OPEN FOLDER>
+
+I will just open both the files.
+
+One contains an install script and the other is a list of the extensions to install.
+
+And you can see the script has a while loop which is iterating through all the lines in the file which you can see here on the very bottom line
+
+So the way it works is :
+
+-  For each line, 
+-   if it doesn't start with a hash 
+-   and if it's not an empty line
+-   then it reads the extension's 
+-   and basically, if its not already installed it installs it. 
+-   This means it's idempotent, i.e. you can run it over and over again. The second time you run it, it won't actually install anything.
+
+So let's look at actually running this script…
+
+So in order to run this script, 
+
+I will open a terminal
+
+I chmod 755 the script
+
+And then to run it, I just type dot slash vscode…install extensions…and hit enter…
+
+And you can see it's iterating through them all. 
+
+I'll pause just momentarily…
+<PAUSE>
+And, uh, that's now run. 
+
+So if I go to the extensions panel here, you can see… here they all are
+
+I'm not going to go through them all in this video
+
+But the show notes for this video contain a link to the course repo, where you can get hold of both files.
+
+If you want to install some of them yourself, just trim down the file to what you want and run the script yourself
+
+Also, if you want to know more about a particular extension you can just take its identifier in this file and search for it in the marketplace
+
+So with that, I'll finish here and I'll see you in the next video
+
+

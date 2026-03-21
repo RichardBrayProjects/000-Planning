@@ -1,0 +1,27 @@
+Hello, and welcome. 
+
+This is a short tutorial on Git and GitHub essentials.
+
+In front of you is a quick summary of the lessons coming up. 
+
+In the first column you can see these are lessons on getting the correct software installed and your machine correctly configured.
+
+Then, in the second column are three lessons on how to create a repo, make some commits and navigating around the github.com website. 
+
+In the last column there are three lessons on how to use branches 
+  - both for going back to a previous state of your repo 
+  - as well as creating a branch for some experimental changes before committing them.
+
+Let's quickly go to the Git website. There's this Learn section, and within it a book,
+
+The book is actually available as a sort of normal book, but it's also available on the website, and it's really excellent. 
+
+For instance, this is the chapter on Git branching, 
+
+If we look at the first section you can see, there are lots of nice, pretty pictures explaining what's going on under the hood.
+
+Now, whilst this book is a fantastic reference, this tutorial is designed to show you the basics and get you up and running quickly.
+
+Returning to the content there are separate sections for setting up a Mac or Windows PC so I will see you on one of those next.
+
+

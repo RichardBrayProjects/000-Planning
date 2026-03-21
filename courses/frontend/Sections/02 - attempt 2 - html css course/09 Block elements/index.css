@@ -1,0 +1,21 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.block {
+  padding: 12px;
+  margin-top: 8px;
+}
+
+.red {
+  background: red;
+}
+
+.blue {
+  background: blue;
+  color: white;
+}
+
+.yellow {
+  background: yellow;
+}
