@@ -1,3 +1,18 @@
+# Order
+
+(By deferring aurora to the end we SAVE MONEY)
+
+1 Introduction
+2 Express local server
+3 Express as lambda API server
+4 Deploy UI to CloudFront
+5 Connect UI to API (Vite & CloudFront)
+6 S3 Bucket Photo sharing
+7 Local Postgress db in Docker
+8 Connect UI to local db (filter images)
+9 Aurora Postgress db
+10 Connect API server to db
+
 # SECTION 1 : introduction
 
 - introduction
@@ -9,21 +24,15 @@
 
 # SECTION 2: Node/Express API server
 
-- Objective: a local running express api server with two API points :
+- Objective: a local running express api server with one API points :
   /health which returns "ok"
-  /login-event - add a new one and list last "n" login-events - held in memory for now
 
 # SECTION 3: API Server deployed to AWS Lambda
 
 - Objective: deploy the API server as a lambda
 - test with postman / something else
 
-# SECTION 4: AWS RDS Aurora serverless PostgreSQL Database
-
-  - CDK deployment
-  - flyway migrations
-
-# SECTION 5: Deploy UI using AWS Cloudfront
+# SECTION 4: Deploy UI using AWS Cloudfront
 
 - Objective: Deploy the UI To Cloudfront using the CDK
 - First deploy manually, then CDK deployment
@@ -33,19 +42,31 @@
 - set up certificates
 - use www subdomain of the registered domain
 
-# SECTION 6: Connect UI to API Server
+# SECTION 5: Connect UI to API (Vite & CloudFront)
 
 - Objective: each login is registered, user profile page displays last 5 logins
 
-# SECTION 7: AWS S3 Bucket Photo sharing
+# SECTION 6: S3 Bucket Photo sharing
 
 - Image Upload to S3 bucket
 - Search and display images directly from S3 bucket
 - AWS Cloudfront caching S3 image bucket
 
+# SECTION 7 Local Postgress db in Docker
+
+  - flyway migrations
+
+# SECTION 8 Connect UI to local db (filter images)
+
+# SECTION 9 Aurora Postgress db
+
+  - CDK deployment
+
+# SECTION 10 Connect API server to db
+
 # ------------ Publish ----------------
 
-# SECTION 8: AWS Cognito
+# SECTION xx: AWS Cognito
 
 - manual Cognito setup
 - Cognito domain and client id are manually pasted into the UI
@@ -54,7 +75,7 @@
   - OAuth 2.1 / Cognito UI code - how OAuth/Cognito works
 - Cognito domain and client id held in .env file
 
-# SECTION 9 : CDK deployment
+# SECTION xx: CDK deployment
 
 - Cognito CDK deployment
 - must include synth and deploy phases
@@ -65,7 +86,7 @@
   - overwrites them in .env file
   - see https://chatgpt.com/c/69ab3984-6300-8385-a2f0-55180cdc9417 or search ChatGpt history for Cognito client ID access
 
-# SECTION 10: AWS Cognito post-registration Lambda trigger
+# SECTION xx: AWS Cognito post-registration Lambda trigger
 
 # SECTION xx: AWS API Gateway Security
 
