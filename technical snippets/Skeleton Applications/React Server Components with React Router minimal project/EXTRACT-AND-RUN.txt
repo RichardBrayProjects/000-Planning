@@ -1,0 +1,32 @@
+# How to Use This Archive
+
+## Extract the project:
+
+**Windows:** Right-click `rsc-minimal-project.zip` → Extract All
+
+**Mac/Linux:** 
+```bash
+unzip rsc-minimal-project.zip
+```
+
+This will create `frontend/` and `backend/` directories.
+
+## Run it:
+
+**Terminal 1 - Start Lambda:**
+```bash
+cd backend
+npm install
+npm run dev
+```
+
+**Terminal 2 - Start Frontend:**
+```bash
+cd frontend
+npm install
+npm run dev
+```
+
+Then open http://localhost:5173 in your browser.
+
+That's it! You'll see a React Server Component fetching data from AWS Lambda.
