@@ -18,7 +18,16 @@ SECTION 1 — Introduction & Setup
 
 ⸻
 
-SECTION 2 — Local API (Express)
+SECTION 2 — Deploy Frontend (CloudFront)
+• Deploy static frontend via CloudFront
+• First manual deployment, then CDK version
+• (Optional lessons: custom domain, certificates, DNS)
+
+👉 Third win: your website is live globally
+
+⸻
+
+SECTION 3 — Local API (Express)
 • Create a minimal TypeScript Express server
 • Implement /health endpoint returning "ok"
 • Run and test locally
@@ -27,21 +36,12 @@ SECTION 2 — Local API (Express)
 
 ⸻
 
-SECTION 3 — Deploy API to AWS Lambda
+SECTION 4 — Deploy API to AWS Lambda
 • Adapt Express app for Lambda (lambdalith pattern)
 • Deploy using CDK
 • Test via HTTP client (Postman / curl)
 
 👉 Second win: your backend is live in AWS
-
-⸻
-
-SECTION 4 — Deploy Frontend (CloudFront)
-• Deploy static frontend via CloudFront
-• First manual deployment, then CDK version
-• (Optional lessons: custom domain, certificates, DNS)
-
-👉 Third win: your website is live globally
 
 ⸻
 

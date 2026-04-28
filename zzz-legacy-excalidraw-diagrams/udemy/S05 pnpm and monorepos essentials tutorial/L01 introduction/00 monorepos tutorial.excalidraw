@@ -1,0 +1,52 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "source": "https://excalidraw.com",
+  "elements": [
+    {
+      "id": "_PuPqUeZNl5drh7NPSIbL",
+      "type": "text",
+      "x": 698.3203125,
+      "y": 183.16796875,
+      "width": 547.091796875,
+      "height": 45,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "bke",
+      "roundness": null,
+      "seed": 116618305,
+      "version": 136,
+      "versionNonce": 1427388161,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1762588115669,
+      "link": null,
+      "locked": false,
+      "text": " Tutorial : monorepos and pnpm",
+      "fontSize": 36,
+      "fontFamily": 5,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "originalText": " Tutorial : monorepos and pnpm",
+      "autoResize": true,
+      "lineHeight": 1.25
+    }
+  ],
+  "appState": {
+    "gridSize": 20,
+    "gridStep": 5,
+    "gridModeEnabled": false,
+    "viewBackgroundColor": "#ffffff",
+    "lockedMultiSelections": {}
+  },
+  "files": {}
+}

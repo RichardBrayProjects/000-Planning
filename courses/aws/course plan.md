@@ -22,17 +22,7 @@
 - visual studio configuration
 - aws account setup
 
-# SECTION 2: Node/Express API server
-
-- Objective: a local running express api server with one API points :
-  /health which returns "ok"
-
-# SECTION 3: API Server deployed to AWS Lambda
-
-- Objective: deploy the API server as a lambda
-- test with postman / something else
-
-# SECTION 4: Deploy UI using AWS Cloudfront
+# SECTION 2: Deploy UI using AWS Cloudfront
 
 - Objective: Deploy the UI To Cloudfront using the CDK
 - First deploy manually, then CDK deployment
@@ -41,6 +31,16 @@
   - godaddy registered domain
 - set up certificates
 - use www subdomain of the registered domain
+
+# SECTION 3: Node/Express API server
+
+- Objective: a local running express api server with one API points :
+  /health which returns "ok"
+
+# SECTION 4: API Server deployed to AWS Lambda
+
+- Objective: deploy the API server as a lambda
+- test with postman / something else
 
 # SECTION 5: Connect UI to API (Vite & CloudFront)
 
