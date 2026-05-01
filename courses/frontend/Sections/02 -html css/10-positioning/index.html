@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        font-family: sans-serif;
+        font-weight: bold;
+      }
+
+      div {
+        position: relative;
+        top: 50px;
+        left: 50px;
+        width: 300px;
+        height: 300px;
+        border: 4px solid orange;
+      }
+
+      p {
+        height: 50px;
+        width: 100px;
+      }
+
+      .NORMAL {
+        position: static;
+        border: 4px solid black;
+      }
+
+      .RELATIVE {
+        position: relative;
+        top: 15px;
+        left: 15px;
+        border: 4px solid red;
+      }
+
+      .ABSOLUTE {
+        position: absolute;
+        top: 0px;
+        left: 150px;
+        border: 4px solid aqua;
+      }
+
+      .FIXED {
+        position: fixed;
+        top: 50px;
+        left: 450px;
+        border: 4px solid fuchsia;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <p class="NORMAL">NORMAL</p>
+      <p class="RELATIVE">RELATIVE</p>
+      <p class="NORMAL">NORMAL</p>
+      <p class="ABSOLUTE">ABSOLUTE</p>
+      <p class="FIXED">FIXED</p>
+    </div>
+  </body>
+</html>

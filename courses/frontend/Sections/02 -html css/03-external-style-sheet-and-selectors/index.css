@@ -1,0 +1,20 @@
+p {
+  color: red;
+}
+
+#blue-text-paragraph {
+  color: blue;
+}
+
+.my-header {
+  color: green;
+}
+
+h1,
+h2 {
+  font-family: Arial, sans-serif;
+}
+
+div p:first-child {
+  font-weight: bold;
+}

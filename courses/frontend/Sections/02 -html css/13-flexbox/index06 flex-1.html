@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <style>
+      * {
+        border: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+      div {
+        border: 4px solid orange;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+      }
+
+      header,
+      footer {
+        border: 4px solid black;
+      }
+
+      main {
+        border: 4px solid blue;
+        flex: 1;
+      }
+      .red {
+        background-color: red;
+      }
+      .blue {
+        background-color: cornflowerblue;
+      }
+      .green {
+        background-color: green;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <header class="red">1</header>
+      <main class="blue">2</main>
+      <footer class="green">3</footer>
+    </div>
+  </body>
+</html>
